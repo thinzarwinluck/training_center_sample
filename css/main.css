@@ -1,0 +1,14 @@
+@import url("bootstrap.min.css");
+
+/* Your custom CSS code goes here */
+
+body {
+    font-family:'Tajawal', sans-serif;
+  }
+
+  @font-face {
+    font-family: 'Tajawal';
+    src: url('Tajawal-Light.ttf') format('truetype');
+  }
+  
+  
