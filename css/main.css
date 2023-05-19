@@ -1,14 +1,71 @@
-@import url("bootstrap.min.css");
+
 
 /* Your custom CSS code goes here */
 
-body {
+html,body {
     font-family:'Tajawal', sans-serif;
+    width: 100%;
+    height: 100%;
   }
 
   @font-face {
     font-family: 'Tajawal';
     src: url('Tajawal-Light.ttf') format('truetype');
   }
+
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto; /* Set the height of the footer */
+    background-color: black; /* Set the background color of the footer */
+    margin-top: -8px;
+    
+}
+.map-container {
+  height: 100%;
+}
+
+/* Set the iframe to occupy the full container */
+.map-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+p{
+  font-size: 14px;
+}
+
+.contactCard{
+  top: 94px;
+}
+
+.bg-black-transparent{
+  background-color: black!important;
+}
+
+a .active{
+  color: aqua;
+}
+
+.custom-bg1{
+  background-image: url("../img/header.jpg");
+        background-size:cover;
+  background-position: left; /* Center the image within the container */
+  height: 100%; /* Set the height of the container */
+}
+.bg-black-transparent{
+    --bs-bg-opacity: 0.8;
+    background-color: rgba(var(--bs-black-rgb),var(--bs-bg-opacity))!important;
+}
+.ml4{
+  margin-left: 4%;
+}
+.iconColor{
+  color: aliceblue;
+}
+
+
   
   
